@@ -16,7 +16,3 @@ class Contact(Base):
     phone: Mapped[str] = mapped_column(String(15), nullable=False)
     birthday: Mapped[date] = mapped_column(Date, nullable=False)
     additional_data: Mapped[str | None] = mapped_column(String, nullable=True)
-
-
-
-    
