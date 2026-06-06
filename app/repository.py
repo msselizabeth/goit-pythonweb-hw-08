@@ -1,7 +1,7 @@
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
-from models import Contact
-from schemas import ContactModel
+from app.models import Contact
+from app.schemas import ContactModel
 
 class ContactRepository:
     def __init__(self, session: AsyncSession):
