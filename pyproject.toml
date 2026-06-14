@@ -17,6 +17,9 @@ alembic = "^1.18.4"
 python-jose = "^3.5.0"
 pydantic-settings = "^2.14.1"
 passlib = "^1.7.4"
+fastapi-mail = "^1.6.4"
+cloudinary = "^1.44.2"
+slowapi = "^0.1.10"
 
 
 [build-system]
